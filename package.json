@@ -1,0 +1,22 @@
+{
+  "name": "medsee",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "^0.10.2",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/ws": "^8.18.1",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "ws": "^8.20.0",
+    "zod": "^4.3.6"
+  }
+}
